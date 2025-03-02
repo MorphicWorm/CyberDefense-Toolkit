@@ -62,7 +62,6 @@ Special thanks to the cybersecurity community for continuous learning and inspir
 
 ## 📧 Contact
 - **GitHub:** [MorphicWorm](https://github.com/MorphicWorm)
-- **Email:** [YourEmail@example.com]
 
 ---
 
