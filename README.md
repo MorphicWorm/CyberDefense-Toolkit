@@ -91,7 +91,7 @@ Feel free to fork, enhance, and share new defensive tools with the community.
 
 **MorhicWorm**  
 Defensive cybersecurity enthusiast building hands-on tools for SOC teams and threat hunters.  
-🔗 [GitHub](https://github.com/MorphicWorm) | 📬 your.email@example.com
+🔗 [GitHub](https://github.com/MorphicWorm)
 
 > “Defenders think in lists. Attackers think in graphs. Be the exception.”  
 > — Powered by curiosity. Fueled by cyber defense.
