@@ -38,3 +38,62 @@ Each tool is interactive, readable, and designed for lab or production use.
 ```bash
 git clone https://github.com/MorphicWorm/CyberDefense-Toolkit.git
 cd CyberDefense-Toolkit
+```
+
+---
+
+## 🚀 Quick Start
+
+Each tool is in its own folder with:
+- A `README.md` containing usage instructions and examples
+- PowerShell scripts ready to run in your lab or SOC
+
+Example:
+```powershell
+.\Phishing-Analysis-Tool\PhishingAnalysisTool.ps1 -FilePath "sample-headers.txt"
+```
+
+---
+
+## 🧪 Development Progress
+
+| Tool                          | Status     |
+|-------------------------------|------------|
+| 📨 Phishing Analysis Tool     | ✅ Complete |
+| 📊 Event Log Monitor          | 🔜 Planned  |
+| 📑 Log Analysis Tool          | 🔜 Planned  |
+| 🚨 Incident Response Collector| 🔜 Planned  |
+| 📈 Report Generator           | 🔜 Planned  |
+
+---
+
+## 📅 Roadmap
+
+- [x] Phishing Analysis Tool (email header parser)
+- [ ] Event Log Monitor for key Event IDs
+- [ ] IR Collector (forensic triage script)
+- [ ] Log Analyzer for anomaly detection
+- [ ] Report Generator (docx/csv support)
+- [ ] VirusTotal API integration
+- [ ] Linux log parsing support
+- [ ] GUI wrapper for key tools (PowerShell-based)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+Feel free to fork, enhance, and share new defensive tools with the community.
+
+---
+
+## 📌 Author
+
+**MorhicWorm**  
+Defensive cybersecurity enthusiast building hands-on tools for SOC teams and threat hunters.  
+🔗 [GitHub](https://github.com/MorphicWorm) | 📬 your.email@example.com
+
+> “Defenders think in lists. Attackers think in graphs. Be the exception.”  
+> — Powered by curiosity. Fueled by cyber defense.
+
+---
