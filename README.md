@@ -1,70 +1,40 @@
-# ⚡ SOC PowerShell Tools by MorphicWorm
+# ⚔️ CyberDefense-Toolkit by MorhicWorm
 
-## 🛡️ About This Project
-Welcome to the **SOC PowerShell Tools** repository! This project is a collection of PowerShell scripts tailored for Security Operations Center (SOC) tasks, designed to enhance threat detection, incident response, and log analysis.
-
-## 🚀 Tools Included
-
-### 1. 📨 **Phishing Analysis Tool**
-   - Parses email headers to extract key Indicators of Compromise (IOCs).
-   - Identifies suspicious IPs, domains, and SPF/DKIM/DMARC results.
-
-### 2. 📊 **Event Log Monitor**
-   - Monitors Windows Event Logs for security events.
-   - Filters critical log entries for faster incident triage.
-
-### 3. 📑 **Log Analysis Tool**
-   - Analyzes system and application logs for anomalies.
-   - Highlights potential signs of compromise.
-
-### 4. 🚨 **Incident Response (IR) Collector**
-   - Gathers key forensic data during an active incident.
-   - Collects running processes, network connections, and more.
-
-### 5. 📈 **Automated Report Generator**
-   - Generates incident reports from log data.
-   - Customizable templates for fast documentation.
-
-## 🏁 Getting Started
-
-### Prerequisites
-Ensure you have:
-- **Windows PowerShell 5.1** or **PowerShell 7+**
-- Administrative privileges for certain scripts (IR Collector, Event Log Monitor)
-
-### Installation
-1. Clone this repository:
-   ```powershell
-   git clone https://github.com/MorphicWorm/SOC-PowerShell-Tools.git
-   ```
-2. Navigate to the project folder:
-   ```powershell
-   cd SOC-PowerShell-Tools
-   ```
-
-## 📚 Usage
-Each tool has its own directory with a detailed `README.md`. To run a script:
-```powershell
-.\Phishing-Analysis-Tool\PhishingAnalysisTool.ps1 -FilePath "sample-email-headers.txt"
-```
-
-## 🎯 Roadmap
-Planned enhancements:
-- [ ] Integrate VirusTotal API for IOC lookups
-- [ ] Add log file parsing for Linux systems
-- [ ] Build a GUI for the IR Collector
-
-## 🐛 Contributing
-Contributions are welcome! Feel free to fork the repo and submit pull requests with improvements or new SOC scripts.
-
-## 🏆 Acknowledgments
-Special thanks to the cybersecurity community for continuous learning and inspiration.
-
-## 📧 Contact
-- **GitHub:** [MorphicWorm](https://github.com/MorphicWorm)
-- **Email:** [YourEmail@example.com]
+A modular PowerShell toolkit for defenders, analysts, and incident responders.  
+Empowering blue teams with real-world, script-based tools for threat detection, log analysis, and rapid incident response.
 
 ---
 
-_Powered by curiosity, fueled by cybersecurity._ 🪲
+## 🧭 Overview
 
+The **CyberDefense-Toolkit** is a hands-on PowerShell project focused on building practical, modular tools for defensive cybersecurity tasks.  
+Each script in this toolkit serves a real-world function — from parsing phishing emails to collecting forensic artifacts during live incidents.
+
+Whether you're working in a Security Operations Center (SOC), studying blue team concepts, or building your lab environment, this toolkit was built with you in mind.
+
+---
+
+## 🔧 Tools Included
+
+| Tool | Description |
+|------|-------------|
+| 📨 **Phishing Analysis Tool** | Parses email headers and extracts IOCs such as IP addresses, domains, SPF/DKIM/DMARC failures. |
+| 📊 **Event Log Monitor** | Monitors and filters Windows security logs for high-value event IDs. |
+| 📑 **Log Analysis Tool** | Analyzes system/application logs for anomalies and suspicious patterns. |
+| 🚨 **Incident Response (IR) Collector** | Collects volatile data like running processes, active network connections, autoruns, and more. |
+| 📈 **Automated Report Generator** | Generates incident reports based on log or forensic data, with template support for fast documentation. |
+
+Each tool is interactive, readable, and designed for lab or production use.
+
+---
+
+## 📦 Getting Started
+
+### ✅ Requirements
+- PowerShell 5.1 (Windows) or PowerShell 7+
+- Administrator privileges for select tools (e.g., IR Collector, Event Log Monitor)
+
+### 🛠️ Installation
+```bash
+git clone https://github.com/MorphicWorm/CyberDefense-Toolkit.git
+cd CyberDefense-Toolkit
