@@ -42,7 +42,3 @@ Ensure you have:
 - **Windows PowerShell 5.1** or **PowerShell 7+**
 - Administrative privileges for certain scripts (IR Collector, Event Log Monitor)
 
-### Installation
-1. Clone this repository:
-   ```powershell
-   git clone https://github.com/MorphicWorm/SOC-PowerShell-Tools.git
