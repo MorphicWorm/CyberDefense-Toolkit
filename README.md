@@ -64,18 +64,3 @@ Example:
 - [ ] GUI wrapper for key tools (PowerShell-based)
 
 ---
-
----
-
-### ✅ What to Do Next in Git
-
-1. Open the conflicted file in your editor and **replace everything** with the version above.
-2. Then run the following Git commands:
-
-```bash
-git add README.md
-git commit -m "Resolved merge conflict in README.md"
-git push origin dev
-```
-
-Let me know if you want to auto-generate TOC, badges, or keep each tool in subfolders with sample `.ps1` placeholders!
