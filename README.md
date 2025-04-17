@@ -1,44 +1,81 @@
-# ⚡ SOC PowerShell Tools by MorphicWorm
+# ⚔️ CyberDefense-Toolkit by MorhicWorm
 
 > 🚧 **This repository is currently in development.**  
-> Only the **Phishing Analysis Tool** is in progress at this stage. All other tools listed below are planned for future development.
+> Only the **Phishing Analysis Tool** is in progress at this stage. All other tools are planned for future development.
 
 ---
 
 ## 🛡️ About This Project
-Welcome to the **SOC PowerShell Tools** repository! This project is a collection of PowerShell scripts tailored for Security Operations Center (SOC) tasks, designed to enhance threat detection, incident response, and log analysis.
+Welcome to the **CyberDefense-Toolkit**, a hands-on PowerShell project focused on building practical, modular tools for defensive cybersecurity tasks.  
+Each script in this toolkit serves a real-world function — from parsing phishing emails to collecting forensic artifacts during live incidents.
+
+Whether you're working in a Security Operations Center (SOC), studying blue team concepts, or building your lab environment, this toolkit was built with you in mind.
 
 ---
 
 ## 🚀 Tools Included
 
-### 1. 📨 **Phishing Analysis Tool** _(In Progress)_
-   - Parses email headers to extract key Indicators of Compromise (IOCs).
-   - Identifies suspicious IPs, domains, and SPF/DKIM/DMARC results.
-   - Includes optional logging, quarantine of suspicious attachments, and hash calculations.
-
-### 2. 📊 **Event Log Monitor** _(Coming Soon)_
-   - Monitors Windows Event Logs for security events.
-   - Filters critical log entries for faster incident triage.
-
-### 3. 📑 **Log Analysis Tool** _(Coming Soon)_
-   - Analyzes system and application logs for anomalies.
-   - Highlights potential signs of compromise.
-
-### 4. 🚨 **Incident Response (IR) Collector** _(Coming Soon)_
-   - Gathers key forensic data during an active incident.
-   - Collects running processes, network connections, and more.
-
-### 5. 📈 **Automated Report Generator** _(Coming Soon)_
-   - Generates incident reports from log data.
-   - Customizable templates for fast documentation.
+| Tool | Status | Description |
+|------|--------|-------------|
+| 📨 **Phishing Analysis Tool** | ⚙️ In Progress | Parses email headers and extracts IOCs such as IP addresses, domains, SPF/DKIM/DMARC results. Includes optional logging, attachment quarantine, and hash generation. |
+| 📊 **Event Log Monitor** | 🔜 Planned | Monitors and filters Windows security logs for high-value event IDs. |
+| 📑 **Log Analysis Tool** | 🔜 Planned | Analyzes system/application logs for anomalies and suspicious patterns. |
+| 🚨 **Incident Response Collector** | 🔜 Planned | Collects volatile data like running processes, active network connections, autoruns, and more. |
+| 📈 **Automated Report Generator** | 🔜 Planned | Generates incident reports based on log or forensic data, with template support for fast documentation. |
 
 ---
 
-## 🏁 Getting Started
+## 📦 Getting Started
 
-### Prerequisites
-Ensure you have:
-- **Windows PowerShell 5.1** or **PowerShell 7+**
-- Administrative privileges for certain scripts (IR Collector, Event Log Monitor)
+### ✅ Requirements
+- PowerShell 5.1 (Windows) or PowerShell 7+
+- Administrator privileges for select tools (e.g., IR Collector, Event Log Monitor)
 
+### 🛠️ Installation
+```bash
+git clone https://github.com/MorphicWorm/CyberDefense-Toolkit.git
+cd CyberDefense-Toolkit
+```
+
+---
+
+## 🚀 Quick Start
+
+Each tool is in its own folder with:
+- A `README.md` containing usage instructions and examples
+- PowerShell scripts ready to run in your lab or SOC
+
+Example:
+```powershell
+.\Phishing-Analysis-Tool\PhishingAnalysisTool.ps1 -FilePath "sample-headers.txt"
+```
+
+---
+
+## 📅 Roadmap
+
+- [x] Phishing Analysis Tool (email header parser)
+- [ ] Event Log Monitor for key Event IDs
+- [ ] IR Collector (forensic triage script)
+- [ ] Log Analyzer for anomaly detection
+- [ ] Report Generator (docx/csv support)
+- [ ] VirusTotal API integration
+- [ ] Linux log parsing support
+- [ ] GUI wrapper for key tools (PowerShell-based)
+
+---
+
+---
+
+### ✅ What to Do Next in Git
+
+1. Open the conflicted file in your editor and **replace everything** with the version above.
+2. Then run the following Git commands:
+
+```bash
+git add README.md
+git commit -m "Resolved merge conflict in README.md"
+git push origin dev
+```
+
+Let me know if you want to auto-generate TOC, badges, or keep each tool in subfolders with sample `.ps1` placeholders!
