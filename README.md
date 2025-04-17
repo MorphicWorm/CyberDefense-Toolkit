@@ -1,30 +1,27 @@
 # ⚔️ CyberDefense-Toolkit by MorhicWorm
 
-A modular PowerShell toolkit for defenders, analysts, and incident responders.  
-Empowering blue teams with real-world, script-based tools for threat detection, log analysis, and rapid incident response.
+> 🚧 **This repository is currently in development.**  
+> Only the **Phishing Analysis Tool** is in progress at this stage. All other tools are planned for future development.
 
 ---
 
-## 🧭 Overview
-
-The **CyberDefense-Toolkit** is a hands-on PowerShell project focused on building practical, modular tools for defensive cybersecurity tasks.  
+## 🛡️ About This Project
+Welcome to the **CyberDefense-Toolkit**, a hands-on PowerShell project focused on building practical, modular tools for defensive cybersecurity tasks.  
 Each script in this toolkit serves a real-world function — from parsing phishing emails to collecting forensic artifacts during live incidents.
 
 Whether you're working in a Security Operations Center (SOC), studying blue team concepts, or building your lab environment, this toolkit was built with you in mind.
 
 ---
 
-## 🔧 Tools Included
+## 🚀 Tools Included
 
-| Tool | Description |
-|------|-------------|
-| 📨 **Phishing Analysis Tool** | Parses email headers and extracts IOCs such as IP addresses, domains, SPF/DKIM/DMARC failures. |
-| 📊 **Event Log Monitor** | Monitors and filters Windows security logs for high-value event IDs. |
-| 📑 **Log Analysis Tool** | Analyzes system/application logs for anomalies and suspicious patterns. |
-| 🚨 **Incident Response (IR) Collector** | Collects volatile data like running processes, active network connections, autoruns, and more. |
-| 📈 **Automated Report Generator** | Generates incident reports based on log or forensic data, with template support for fast documentation. |
-
-Each tool is interactive, readable, and designed for lab or production use.
+| Tool | Status | Description |
+|------|--------|-------------|
+| 📨 **Phishing Analysis Tool** | ⚙️ In Progress | Parses email headers and extracts IOCs such as IP addresses, domains, SPF/DKIM/DMARC results. Includes optional logging, attachment quarantine, and hash generation. |
+| 📊 **Event Log Monitor** | 🔜 Planned | Monitors and filters Windows security logs for high-value event IDs. |
+| 📑 **Log Analysis Tool** | 🔜 Planned | Analyzes system/application logs for anomalies and suspicious patterns. |
+| 🚨 **Incident Response Collector** | 🔜 Planned | Collects volatile data like running processes, active network connections, autoruns, and more. |
+| 📈 **Automated Report Generator** | 🔜 Planned | Generates incident reports based on log or forensic data, with template support for fast documentation. |
 
 ---
 
@@ -55,18 +52,6 @@ Example:
 
 ---
 
-## 🧪 Development Progress
-
-| Tool                          | Status     |
-|-------------------------------|------------|
-| 📨 Phishing Analysis Tool     | ✅ Complete |
-| 📊 Event Log Monitor          | 🔜 Planned  |
-| 📑 Log Analysis Tool          | 🔜 Planned  |
-| 🚨 Incident Response Collector| 🔜 Planned  |
-| 📈 Report Generator           | 🔜 Planned  |
-
----
-
 ## 📅 Roadmap
 
 - [x] Phishing Analysis Tool (email header parser)
@@ -80,20 +65,17 @@ Example:
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome!  
-Feel free to fork, enhance, and share new defensive tools with the community.
-
 ---
 
-## 📌 Author
+### ✅ What to Do Next in Git
 
-**MorhicWorm**  
-Defensive cybersecurity enthusiast building hands-on tools for SOC teams and threat hunters.  
-🔗 [GitHub](https://github.com/MorphicWorm)
+1. Open the conflicted file in your editor and **replace everything** with the version above.
+2. Then run the following Git commands:
 
-> “Defenders think in lists. Attackers think in graphs. Be the exception.”  
-> — Powered by curiosity. Fueled by cyber defense.
+```bash
+git add README.md
+git commit -m "Resolved merge conflict in README.md"
+git push origin dev
+```
 
----
+Let me know if you want to auto-generate TOC, badges, or keep each tool in subfolders with sample `.ps1` placeholders!
